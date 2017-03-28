@@ -60,18 +60,6 @@ def process_feed(tweet_list, testing=False):
 
 def main():
 
-    # load_dotenv(find_dotenv())
-    # tone_analyzer = ToneAnalyzerV3(
-    #    username=os.environ.get("TONE_USERNAME"),
-    #    password=os.environ.get("TONE_PASSWORD"),
-    #    version='2016-05-19')
-    #
-    # # test_tweet = 'suicide die pain misery myself me I'
-    # # test_tweet = 'ight. "hello there, elizabe'
-    # test_tweet = 'anger sadness'
-    # print(find_risk(test_tweet, tone_analyzer, testing=True))
-
-
     test_list = [{'name':'bob', 'text':'first tweet', 'date_time':'20170326', 'location':'<street adress>'},
     {'name':'bob', 'text':'i am posting another tweet', 'date_time':'20170326', 'location':'<street adress>'},
     {'name':'bob', 'text':'i feel sad', 'date_time':'20170326', 'location':'<street adress>'},
