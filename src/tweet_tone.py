@@ -60,11 +60,11 @@ def process_feed(tweet_list, testing=False):
 
 def main():
 
-    test_list = [{'name':'bob', 'text':'first tweet', 'date_time':'20170326', 'location':'<street adress>'},
-    {'name':'bob', 'text':'i am posting another tweet', 'date_time':'20170326', 'location':'<street adress>'},
-    {'name':'bob', 'text':'i feel sad', 'date_time':'20170326', 'location':'<street adress>'},
-    {'name':'bob', 'text':'misery!!!', 'date_time':'20170326', 'location':'<street adress>'},
-    {'name':'bob', 'text':'my friend invited me to a picnic, and now I am happy', 'date_time':'20170326', 'location':'<street adress>'}]
+    test_list = [{'name':'bob', 'text':'first tweet', 'date_time':'20170326', 'location':'<street address>'},
+    {'name':'bob', 'text':'i am posting another tweet', 'date_time':'20170326', 'location':'<street address>'},
+    {'name':'bob', 'text':'i feel sad', 'date_time':'20170326', 'location':'<street address>'},
+    {'name':'bob', 'text':'misery!!!', 'date_time':'20170326', 'location':'<street address>'},
+    {'name':'bob', 'text':'my friend invited me to a picnic, and now I am happy', 'date_time':'20170326', 'location':'<street address>'}]
 
     process_feed(test_list, testing=True)
 
